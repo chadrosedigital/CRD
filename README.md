@@ -48,6 +48,23 @@ git push -u origin main
 
 Replace `YOUR_GITHUB_REPOSITORY_URL` with the URL shown by GitHub.
 
+## Vercel deployment
+
+The included `vercel.json` tells Vercel to serve the ready-built website from `dist/`, with no install or build command.
+
+1. Upload the extracted repository contents, including `vercel.json` and `dist/`, to GitHub. Do not upload only the ZIP file.
+2. In Vercel, set **Root Directory** to the directory containing `vercel.json` and `dist/`.
+   - If these files are at the repository root, leave Root Directory at its default.
+   - If you uploaded the enclosing `chad-rose-digital` folder, set Root Directory to `chad-rose-digital`.
+3. Use **Other** as the Framework Preset. Output Directory is `dist`; build and install commands are empty. The configuration file supplies these values.
+4. Commit the configuration to the branch connected to Vercel and redeploy.
+
+Do not select `dist` as Root Directory while also using `dist` as Output Directory: that would point to a nonexistent `dist/dist`. No catch-all rewrite is needed; each page is a real HTML file.
+
+If a deployment still fails, inspect its exact error and deployment logs. This config addresses static output discovery; deleted deployments, incorrect domains or access restrictions need their own fixes.
+
+Reference: [Vercel build configuration](https://vercel.com/docs/builds/configure-a-build).
+
 ## Hosting
 
 Publish the `dist/` directory with any static web host. All site navigation and asset links are relative, so the website also works under a repository subpath.
