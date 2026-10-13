@@ -29,3 +29,7 @@
 
 /* Landing Page uses the same silver star at every screen size. */
 .plan-icon>.mobile-star{display:block;width:28px;height:28px}
+
+/* Supplied monitor artwork: preserve the full image and existing 3D motion. */
+.monitor-screen{aspect-ratio:1672/941}
+.monitor-artwork{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}

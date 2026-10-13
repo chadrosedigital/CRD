@@ -10,3 +10,5 @@
 - 3D scroll treatment extends the existing native Reveal adaptation. A fresh 21st search returned the same asanshay Reveal pattern; no additional component retrieval was needed.
 
 - Desktop monitor frame and stand implemented in native CSS around the existing artwork. 21st search surfaced designali-in/Mac and saurabh-2607/Great UI Macbook Mockup as references; no source retrieved or new dependency added.
+
+- Monitor artwork: Luxe CR Digital Gold Monogram.png, supplied by the user; displayed unmodified at its original aspect ratio.

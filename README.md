@@ -90,3 +90,6 @@ Exported on 13 October 2026 from the published source commit `3d20828bb2935b0f41
 At widths up to 600px, arrows use text presentation and the Landing Page pricing card uses a silver SVG star. Desktop symbols and layout are preserved. Vercel configuration remains included.
 
 Latest update: Landing Page pricing now uses the same silver star on desktop and mobile.
+
+## Latest visual update
+The home monitor displays the supplied gold monogram artwork, preserving the existing 3D scroll animation.
