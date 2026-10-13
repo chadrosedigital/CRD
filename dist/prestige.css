@@ -18,3 +18,14 @@
 @media(max-width:850px){.prestige-stage{max-width:580px;margin-inline:auto;padding:12px 0 10px}.monitor-stand{height:55px}}
 @media(max-width:600px){.prestige-stage{max-width:420px;padding:0 0 10px}.monitor-frame{padding:6px 6px 0;border-radius:11px}.monitor-screen{border-radius:5px 5px 1px 1px}.monitor-chin{height:13px}.monitor-chin i{width:3px;height:3px}.monitor-stand{height:42px}.monitor-foot{height:9px}.monitor-screen .art-caption{font-size:3.5px}.home-hero{gap:46px;padding-bottom:44px}}
 @media(prefers-reduced-motion:reduce){.monitor-device{transform:none!important}}
+/* Preserve desktop glyphs; prevent mobile platforms choosing emoji artwork. */
+.mobile-symbol{display:none}
+@media(max-width:600px){
+  .device-symbol>.desktop-symbol{display:none}
+  .device-symbol>.mobile-symbol{display:inline;font-family:Arial,Helvetica,sans-serif;font-variant-emoji:text}
+  .plan-icon .mobile-symbol{display:inline-flex;align-items:center;vertical-align:middle}
+  .plan-icon .mobile-star{display:block;width:28px;height:28px}
+}
+
+/* Landing Page uses the same silver star at every screen size. */
+.plan-icon>.mobile-star{display:block;width:28px;height:28px}

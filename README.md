@@ -84,3 +84,9 @@ Fonts load from Google Fonts (DM Sans and DM Serif Display). Scroll effects resp
 ## Export
 
 Exported on 13 October 2026 from the published source commit `3d20828bb2935b0f411b3d17b8de70ca8b16024e`. Repository history and local runtime files are omitted. This archive contains the complete editable website and ready-to-host output.
+
+## Mobile icon update — 13 October 2026
+
+At widths up to 600px, arrows use text presentation and the Landing Page pricing card uses a silver SVG star. Desktop symbols and layout are preserved. Vercel configuration remains included.
+
+Latest update: Landing Page pricing now uses the same silver star on desktop and mobile.
