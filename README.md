@@ -77,7 +77,7 @@ Workflow references: [GitHub's official static Pages workflow](https://github.co
 
 ## Contact form and external resources
 
-The contact form prepares a `mailto:` enquiry to chadrosedigital@gmail.com. Visitors review and send it through their email app; the site has no backend email service or database. A copy-message fallback is provided.
+The contact form prepares a `mailto:` enquiry to designs@chadrosedigital.co.za. Visitors review and send it through their email app; the site has no backend email service or database. A copy-message fallback is provided.
 
 Fonts load from Google Fonts (DM Sans and DM Serif Display). Scroll effects respect reduced-motion preferences. Branding and source provenance are documented in `SOURCES.md`.
 
@@ -93,3 +93,6 @@ Latest update: Landing Page pricing now uses the same silver star on desktop and
 
 ## Latest visual update
 The home monitor displays the supplied gold monogram artwork, preserving the existing 3D scroll animation.
+
+## Contact email
+All enquiry links and the contact form use designs@chadrosedigital.co.za. The form opens a prepared message in the visitor’s email app, where they press Send.

@@ -94,7 +94,7 @@
     }
   }
   const copyEmail = document.querySelector('[data-copy-email]');
-  copyEmail?.addEventListener('click', () => copy('chadrosedigital@gmail.com',document.querySelector('#copy-status'),'Email address copied.'));
+  copyEmail?.addEventListener('click', () => copy('designs@chadrosedigital.co.za',document.querySelector('#copy-status'),'Email address copied.'));
   const form = document.querySelector('#enquiry-form');
   if (form) {
     const selected = new URLSearchParams(location.search).get('package');
@@ -118,7 +118,7 @@
         result.append(fallback);
       }
       fallback.value = enquiry;
-      location.href = `mailto:chadrosedigital@gmail.com?subject=${encodeURIComponent('Website enquiry — '+packageName)}&body=${encodeURIComponent(enquiry)}`;
+      location.href = `mailto:designs@chadrosedigital.co.za?subject=${encodeURIComponent('Website enquiry — '+packageName)}&body=${encodeURIComponent(enquiry)}`;
     });
     document.querySelector('#copy-enquiry').addEventListener('click', () => copy(enquiry,document.querySelector('#enquiry-status'),'Enquiry copied. Paste it into an email when you’re ready.'));
   }
