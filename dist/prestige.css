@@ -33,3 +33,8 @@
 /* Supplied monitor artwork: preserve the full image and existing 3D motion. */
 .monitor-screen{aspect-ratio:1672/941}
 .monitor-artwork{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}
+
+/* Supporting package terms stay subordinate to the two existing cards. */
+.pricing-terms{margin:24px 0 0;font-size:13px;line-height:1.85}
+
+.price-card .management-note{min-height:0;margin:24px 0 0;padding-top:20px;border-top:1px solid currentColor;font-size:12px;line-height:1.8}
