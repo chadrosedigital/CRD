@@ -12,3 +12,6 @@
 - Desktop monitor frame and stand implemented in native CSS around the existing artwork. 21st search surfaced designali-in/Mac and saurabh-2607/Great UI Macbook Mockup as references; no source retrieved or new dependency added.
 
 - Monitor artwork: Luxe CR Digital Gold Monogram.png, supplied by the user; displayed unmodified at its original aspect ratio.
+
+## Motion upgrade
+GSAP 3.13.0 core and ScrollTrigger bundled from the gsap npm distribution via jsDelivr, with license headers retained. Documentation: https://gsap.com/docs/v3/ . Existing 21st Reveal pattern reused. Fresh 21st catalog search returned HTTP 401; external CLI review blocked by approval review, so local verification used.
